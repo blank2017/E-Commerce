@@ -26,11 +26,6 @@ server.set("layout", "./Website/layouts/main-layout");
 
 route(server);
 
-server.get("/about", (req, res) => {
-  res.render("Website/pages/aboutPage", {
-    title: "About Page",
-  });
-});
 server.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
