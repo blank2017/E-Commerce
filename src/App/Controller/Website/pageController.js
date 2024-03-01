@@ -3,5 +3,5 @@ exports.getHomePage = (req, res) => {
 };
 
 exports.getAboutPage = (req, res) => {
-  res.render("Website/pages/aboutPage"), { title: "About Page" };
+  res.render("Website/pages/aboutPage", { title: "About Page" });
 };
